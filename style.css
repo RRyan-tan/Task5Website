@@ -1,3 +1,9 @@
+
+img{
+    width: 100%;
+}
+
+
 .hero-image{
     background-image: url("./images/scotland-1987599_1280.jpg");
     height: 352px;
@@ -10,6 +16,18 @@
     font-size: 4rem;  /* change the font size to make it smaller  according to page size*/ 
     color: whitesmoke;
     position: absolute;
-    top: 265px;
+    top: 244px;
     width: 100%;
+}
+
+.two-collumn{
+    display: grid;
+    grid-template-columns: 5fr 8fr; 
+    gap: 50px; 
+    width: 80%;
+    margin: auto; /* means that the whole 2 collumn div matches up across the page*/
+    margin-top: 40px;
+}
+.info{
+    font-size: 1.2rem;
 }
