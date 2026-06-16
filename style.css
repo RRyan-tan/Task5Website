@@ -40,6 +40,8 @@ img{
 }
 .card-text{
     text-align: center;
-    background-color: rgb(159, 0, 190);
     color: whitesmoke;
 }   
+.card{
+    background-color : #B4001E;
+}
