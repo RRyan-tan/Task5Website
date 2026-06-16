@@ -29,5 +29,17 @@ img{
     margin-top: 40px;
 }
 .info{
-    font-size: 1.2rem;
+    font-size: 1.2em; 
 }
+.three-collumn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* space between columns */
+    margin: auto; /* center the grid and add top margin */
+    width: 70%;
+}
+.card-text{
+    text-align: center;
+    background-color: rgb(159, 0, 190);
+    color: whitesmoke;
+}   
